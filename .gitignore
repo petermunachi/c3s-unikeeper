@@ -1,0 +1,12 @@
+ui/coverage/
+server/coverage/
+ui/.next/
+ui/.env
+server/.env
+.env
+
+# compiled output
+server/dist
+server/node_modules
+ui/node_modules
+
