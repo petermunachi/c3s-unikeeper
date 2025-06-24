@@ -13,8 +13,8 @@ import { useRouter } from "next/router";
 const Login: NextPage = () => {
   const router = useRouter();
 
-  const [email, setEmail] = useState<string>('pali@gmail.com')
-  const [password, setPassword] = useState<string>('pali@gmail.com')
+  const [email, setEmail] = useState<string>('')
+  const [password, setPassword] = useState<string>('')
 
   const handleUserLogin = async () => {
     try {
